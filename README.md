@@ -32,7 +32,7 @@ models = ...
 
 likelihood = numpy.zeros(len(models)) // Gaussian Models
 
-threshold = numpy.argmax(log_likelihood)
+threshold = numpy.argmax(likelihood)
 ```
 
 
