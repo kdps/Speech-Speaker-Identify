@@ -34,3 +34,6 @@ likelihood = numpy.zeros(len(models)) // Gaussian Models
 
 threshold = numpy.argmax(log_likelihood)
 ```
+
+
+1. https://www.slideshare.net/NaverEngineering/ss-117073508
